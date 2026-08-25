@@ -1,0 +1,28 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:qa": "npx cross-env TEST_ENV=qa npx playwright test add-to-cart-json",
+    "test:qa:regression": "npx cross-env TEST_ENV=qa npx playwright test --grep '@reg'",
+    "test:staging": "npx cross-env TEST_ENV=staging npx playwright test add-to-cart",
+    "allure:generate": "allure generate allure-rp --clean -o allure-report",
+    "allure:serve": "allure serve allure-rp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.10.2"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "csv-parse": "^7.0.2",
+    "dotenv": "^17.4.2"
+  }
+}

@@ -1,0 +1,2745 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\abdul\\Desktop\\Playwright Framework\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--list"
+    ],
+    "configFile": "C:\\Users\\abdul\\Desktop\\Playwright Framework\\playwright.config.js",
+    "rootDir": "C:/Users/abdul/Desktop/Playwright Framework/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/abdul/Desktop/Playwright Framework/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/abdul/Desktop/Playwright Framework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/abdul/Desktop/Playwright Framework/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/abdul/Desktop/Playwright Framework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/abdul/Desktop/Playwright Framework/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/abdul/Desktop/Playwright Framework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/abdul/Desktop/Playwright Framework/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "iPhone 16 Pro",
+        "name": "iPhone 16 Pro",
+        "testDir": "C:/Users/abdul/Desktop/Playwright Framework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "reports"
+        }
+      ],
+      [
+        "C:\\Users\\abdul\\Desktop\\Playwright Framework\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "resultsDir": "allure-rp"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/samplejsonreport.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 9,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "add-to-cart-data-driven.spec.js",
+      "file": "add-to-cart-data-driven.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Product search test",
+          "file": "add-to-cart-data-driven.spec.js",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Product search and add to cart with Laptops",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff02f2dc6d4a8594c7d5-ce8aebb8ad2b9d2e550e",
+              "file": "add-to-cart-data-driven.spec.js",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Product search and add to cart with Accessories",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff02f2dc6d4a8594c7d5-6dbe5ecddb0b3e251fff",
+              "file": "add-to-cart-data-driven.spec.js",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Product search and add to cart with Laptops",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff02f2dc6d4a8594c7d5-7f864ba1d50522e8aa7d",
+              "file": "add-to-cart-data-driven.spec.js",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Product search and add to cart with Accessories",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff02f2dc6d4a8594c7d5-0327ce7d4863d54042f4",
+              "file": "add-to-cart-data-driven.spec.js",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Product search and add to cart with Laptops",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff02f2dc6d4a8594c7d5-d6942bb49b6950e06005",
+              "file": "add-to-cart-data-driven.spec.js",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Product search and add to cart with Accessories",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff02f2dc6d4a8594c7d5-7866c3365136a9de03c5",
+              "file": "add-to-cart-data-driven.spec.js",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Product search and add to cart with Laptops",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "iPhone 16 Pro",
+                  "projectName": "iPhone 16 Pro",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff02f2dc6d4a8594c7d5-dcf364cc491c394a4d83",
+              "file": "add-to-cart-data-driven.spec.js",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "Product search and add to cart with Accessories",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "iPhone 16 Pro",
+                  "projectName": "iPhone 16 Pro",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "ff02f2dc6d4a8594c7d5-c85add2d760e2e62619f",
+              "file": "add-to-cart-data-driven.spec.js",
+              "line": 13,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "add-to-cart-json.spec.js",
+      "file": "add-to-cart-json.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Product search and add to cart Laptops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e78e4db26a093b4c4e13-00222987b8b46aa9f851",
+          "file": "add-to-cart-json.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Accessories",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e78e4db26a093b4c4e13-aec86c7b5a55abbf1e8d",
+          "file": "add-to-cart-json.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Laptops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e78e4db26a093b4c4e13-c8a8cb0518ee3ba9e772",
+          "file": "add-to-cart-json.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Accessories",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e78e4db26a093b4c4e13-f707cdbe1b4379a62f90",
+          "file": "add-to-cart-json.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Laptops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e78e4db26a093b4c4e13-266d9bdf07a0e0f01e42",
+          "file": "add-to-cart-json.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Accessories",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e78e4db26a093b4c4e13-3e94b49b08a7a7401048",
+          "file": "add-to-cart-json.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Laptops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e78e4db26a093b4c4e13-ca7c8166e3baacd49d98",
+          "file": "add-to-cart-json.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Accessories",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e78e4db26a093b4c4e13-b20917e87599f0a346eb",
+          "file": "add-to-cart-json.spec.js",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "add-to-cart-parameterized.spec.js",
+      "file": "add-to-cart-parameterized.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Product search and add to cart Laptops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8b27f280f719d414d0b7-efe9ec4bb437c71d2aa8",
+          "file": "add-to-cart-parameterized.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Accessories",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8b27f280f719d414d0b7-e8f1fa8f33121e340b7a",
+          "file": "add-to-cart-parameterized.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Laptops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8b27f280f719d414d0b7-905a839f4d48b4288c10",
+          "file": "add-to-cart-parameterized.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Accessories",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8b27f280f719d414d0b7-db14b5bada99725c6598",
+          "file": "add-to-cart-parameterized.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Laptops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8b27f280f719d414d0b7-da2e128a816f57ef951e",
+          "file": "add-to-cart-parameterized.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Accessories",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8b27f280f719d414d0b7-6968837f2b1ba9e72095",
+          "file": "add-to-cart-parameterized.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Laptops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8b27f280f719d414d0b7-578a52f3f54f04b092e0",
+          "file": "add-to-cart-parameterized.spec.js",
+          "line": 13,
+          "column": 5
+        },
+        {
+          "title": "Product search and add to cart Accessories",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8b27f280f719d414d0b7-906948b440029bbb5e38",
+          "file": "add-to-cart-parameterized.spec.js",
+          "line": 13,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "add-to-cart.spec.js",
+      "file": "add-to-cart.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [
+            "reg",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7d1253ade416f4f98e3c-4cfd52428f95d1bb4cab",
+          "file": "add-to-cart.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [
+            "reg",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7d1253ade416f4f98e3c-97d293b315b214ae0d3e",
+          "file": "add-to-cart.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [
+            "reg",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7d1253ade416f4f98e3c-c553fcc5fe5110b9c26c",
+          "file": "add-to-cart.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [
+            "reg",
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7d1253ade416f4f98e3c-763cb9da98f6ccb7b5ac",
+          "file": "add-to-cart.spec.js",
+          "line": 11,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "basics\\checkbox.spec.js",
+      "file": "basics/checkbox.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "checkbox test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "21272b7a6fe8bdc8c5ab-10ff732da321d5128fe8",
+          "file": "basics/checkbox.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "checkbox test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "21272b7a6fe8bdc8c5ab-c25fd2a6cb2a4c29feef",
+          "file": "basics/checkbox.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "checkbox test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "21272b7a6fe8bdc8c5ab-eb03faa5f69ffd03700f",
+          "file": "basics/checkbox.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "checkbox test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "21272b7a6fe8bdc8c5ab-8953c163979292622806",
+          "file": "basics/checkbox.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\Click.spec.js",
+      "file": "basics/Click.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "click test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a6aac249898b610de8c3-903f5bd828b0898d1cbb",
+          "file": "basics/Click.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "click test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a6aac249898b610de8c3-792244d9fd0590f29e65",
+          "file": "basics/Click.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "click test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a6aac249898b610de8c3-283f6288aa56f7a64555",
+          "file": "basics/Click.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "click test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a6aac249898b610de8c3-9088d1da2b8322e12257",
+          "file": "basics/Click.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\draganddrop.spec.js",
+      "file": "basics/draganddrop.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Drag and Drop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9d497a9255a94f7e1403-226503de96993b0b8263",
+          "file": "basics/draganddrop.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Drag and Drop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9d497a9255a94f7e1403-4b036a03db597b1caf88",
+          "file": "basics/draganddrop.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Drag and Drop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9d497a9255a94f7e1403-87a236bfaf70b94f5294",
+          "file": "basics/draganddrop.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Drag and Drop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9d497a9255a94f7e1403-a502756ab6b9a9de084b",
+          "file": "basics/draganddrop.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\dropdown.spec.js",
+      "file": "basics/dropdown.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Dropdown Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b2f14524d7817d1e9c67-c352152d23111e39d21a",
+          "file": "basics/dropdown.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Dropdown Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b2f14524d7817d1e9c67-f448041a1abcedd0fce0",
+          "file": "basics/dropdown.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Dropdown Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b2f14524d7817d1e9c67-669222ae503c1556bee8",
+          "file": "basics/dropdown.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Dropdown Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b2f14524d7817d1e9c67-a736ad6dc2974b3a9cda",
+          "file": "basics/dropdown.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\example.spec.js",
+      "file": "basics/example.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dccf3633337c140692bb-15e89199e71087430dc3",
+          "file": "basics/example.spec.js",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dccf3633337c140692bb-8484a6b37a49dee70144",
+          "file": "basics/example.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dccf3633337c140692bb-54a03fc2615ad7eae500",
+          "file": "basics/example.spec.js",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dccf3633337c140692bb-76c4ec8162cab5a413db",
+          "file": "basics/example.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dccf3633337c140692bb-e1de2d108049a424c08b",
+          "file": "basics/example.spec.js",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dccf3633337c140692bb-df82b54872af46efc798",
+          "file": "basics/example.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dccf3633337c140692bb-7c18fcca82f3e4105077",
+          "file": "basics/example.spec.js",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dccf3633337c140692bb-b5f1f6617c031fb53b95",
+          "file": "basics/example.spec.js",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\filter-locator.spec.js",
+      "file": "basics/filter-locator.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "filter locator",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0d085887ebfe3138c99b-d03b54c7dc3060fcb9ea",
+          "file": "basics/filter-locator.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "filter locator",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0d085887ebfe3138c99b-92d86692a4b4eb8c2dab",
+          "file": "basics/filter-locator.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "filter locator",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0d085887ebfe3138c99b-ced210387b023faf9f11",
+          "file": "basics/filter-locator.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "filter locator",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "0d085887ebfe3138c99b-a478baef7670b343d313",
+          "file": "basics/filter-locator.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\firstTest.spec.js",
+      "file": "basics/firstTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "My First test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "cb1a491b4c1af6431f0f-aa46286d71d2e4492247",
+          "file": "basics/firstTest.spec.js",
+          "line": 3,
+          "column": 6
+        },
+        {
+          "title": "My second test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "cb1a491b4c1af6431f0f-4ec22aaec9839e47e9b9",
+          "file": "basics/firstTest.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "My First test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "cb1a491b4c1af6431f0f-b80ce7e4385e5b4fa510",
+          "file": "basics/firstTest.spec.js",
+          "line": 3,
+          "column": 6
+        },
+        {
+          "title": "My second test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "cb1a491b4c1af6431f0f-a1acadc1685c0b21373d",
+          "file": "basics/firstTest.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "My First test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "cb1a491b4c1af6431f0f-a10e4061d161ec87a1de",
+          "file": "basics/firstTest.spec.js",
+          "line": 3,
+          "column": 6
+        },
+        {
+          "title": "My second test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "cb1a491b4c1af6431f0f-edc96744d661c655a4a6",
+          "file": "basics/firstTest.spec.js",
+          "line": 11,
+          "column": 5
+        },
+        {
+          "title": "My First test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "cb1a491b4c1af6431f0f-6d175c8cfb926619f667",
+          "file": "basics/firstTest.spec.js",
+          "line": 3,
+          "column": 6
+        },
+        {
+          "title": "My second test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "cb1a491b4c1af6431f0f-daee2f26811c38579df8",
+          "file": "basics/firstTest.spec.js",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\frame.spec.js",
+      "file": "basics/frame.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bd0a22b77485b3a26f63-6ba0b8eca717418635f9",
+          "file": "basics/frame.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bd0a22b77485b3a26f63-0c127228f751c468e839",
+          "file": "basics/frame.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bd0a22b77485b3a26f63-e19d2a5176e1a725299c",
+          "file": "basics/frame.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "bd0a22b77485b3a26f63-8ef36fbdbbdd16794e0a",
+          "file": "basics/frame.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\jsalerts.spec.js",
+      "file": "basics/jsalerts.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "93c0ac030c7b98d51394-1a6c1c4205b2ea4ae322",
+          "file": "basics/jsalerts.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "93c0ac030c7b98d51394-b361f1e0fda03779372d",
+          "file": "basics/jsalerts.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "93c0ac030c7b98d51394-a240dd65566f26454f70",
+          "file": "basics/jsalerts.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "93c0ac030c7b98d51394-66155989022c31d83513",
+          "file": "basics/jsalerts.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\keyboardactions.spec.js",
+      "file": "basics/keyboardactions.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2f6e65911c9e332936de-6cbbb8220ffd4f2c51de",
+          "file": "basics/keyboardactions.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2f6e65911c9e332936de-d31069297e3f2ccd5ccf",
+          "file": "basics/keyboardactions.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2f6e65911c9e332936de-77d824bbfd9e9c7d6da5",
+          "file": "basics/keyboardactions.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Keyboard Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2f6e65911c9e332936de-6a8a0c4cd88f7f17ad9b",
+          "file": "basics/keyboardactions.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\locators.spec.js",
+      "file": "basics/locators.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "builtin-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ae6c03a95d5408321444-89dcc99b118f3ec23cbc",
+          "file": "basics/locators.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "builtin-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ae6c03a95d5408321444-0546554c9d3d0e0c9498",
+          "file": "basics/locators.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "builtin-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ae6c03a95d5408321444-c6c5eab9f3267f16c8d1",
+          "file": "basics/locators.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "builtin-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ae6c03a95d5408321444-2055e8df31d9d0dfb225",
+          "file": "basics/locators.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\mousehover.spec.js",
+      "file": "basics/mousehover.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "builtin-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e9da316f14cf74396ed8-6759cbc4395a96e6fd43",
+          "file": "basics/mousehover.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "builtin-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e9da316f14cf74396ed8-ad11e87d643d3df19cfc",
+          "file": "basics/mousehover.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "builtin-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e9da316f14cf74396ed8-f1b1e274a4f4fc66cd40",
+          "file": "basics/mousehover.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "builtin-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "e9da316f14cf74396ed8-3c9a36be037797342704",
+          "file": "basics/mousehover.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\page-locator-strictness.spec.js",
+      "file": "basics/page-locator-strictness.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "page-locators-strictness test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d6e20a3b6af2422a9bd0-12cd4492b880ad687ed8",
+          "file": "basics/page-locator-strictness.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "page-locators-strictness test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d6e20a3b6af2422a9bd0-0fb35e4fca5b0737dba1",
+          "file": "basics/page-locator-strictness.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "page-locators-strictness test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d6e20a3b6af2422a9bd0-dd39eb8896b2befb785b",
+          "file": "basics/page-locator-strictness.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "page-locators-strictness test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d6e20a3b6af2422a9bd0-92174e6b712247125355",
+          "file": "basics/page-locator-strictness.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\page-locator.spec.js",
+      "file": "basics/page-locator.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "page-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "add3e40492f46cb0b144-f7205d7fdf2aa8bb7c1b",
+          "file": "basics/page-locator.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "page-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "add3e40492f46cb0b144-9bab9b0af265f448d960",
+          "file": "basics/page-locator.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "page-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "add3e40492f46cb0b144-d1004ab172dc7f2a3bd8",
+          "file": "basics/page-locator.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "page-locators test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "add3e40492f46cb0b144-dbb25a28806efc358c41",
+          "file": "basics/page-locator.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\radiobutton.spec.js",
+      "file": "basics/radiobutton.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "radio buttons",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c09e49150587c7a7efbc-f7e5a9ce8ade762d386d",
+          "file": "basics/radiobutton.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "radio buttons",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c09e49150587c7a7efbc-287adf2c7ff320066bc4",
+          "file": "basics/radiobutton.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "radio buttons",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c09e49150587c7a7efbc-b8148d5a64f39e026bd0",
+          "file": "basics/radiobutton.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "radio buttons",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c09e49150587c7a7efbc-9b0234f2ee3c484a8c06",
+          "file": "basics/radiobutton.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\scroll.spec.js",
+      "file": "basics/scroll.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Scrollbars",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a3bc67f02d635e9be5e8-81522f4b195722d0e712",
+          "file": "basics/scroll.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Scrollbars",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a3bc67f02d635e9be5e8-10f957cf4bec43331143",
+          "file": "basics/scroll.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Scrollbars",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a3bc67f02d635e9be5e8-774b42997aeaf9e609b2",
+          "file": "basics/scroll.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Scrollbars",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a3bc67f02d635e9be5e8-774b9cb664fe5e1b210e",
+          "file": "basics/scroll.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\slider.spec.js",
+      "file": "basics/slider.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Horizontal Slider",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8e16f38c61112dfe8670-ad5dfd1f0ef28640a8fb",
+          "file": "basics/slider.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Horizontal Slider",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8e16f38c61112dfe8670-5a085d9d604c042c7146",
+          "file": "basics/slider.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Horizontal Slider",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8e16f38c61112dfe8670-33be3111012cd1d930e7",
+          "file": "basics/slider.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Horizontal Slider",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8e16f38c61112dfe8670-3dc2fbd0930d451f62f1",
+          "file": "basics/slider.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "basics\\webelements.spec.js",
+      "file": "basics/webelements.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "web elements",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2d334abac5d7bec02191-c0cfe691ab9463caf16f",
+          "file": "basics/webelements.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "web elements",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2d334abac5d7bec02191-8ac6e5fde2b2f88ab4de",
+          "file": "basics/webelements.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "web elements",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2d334abac5d7bec02191-f1edb405f1885dd962d9",
+          "file": "basics/webelements.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "web elements",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2d334abac5d7bec02191-52c470f1a17499dd5fb4",
+          "file": "basics/webelements.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "checkout-payment.spec.js",
+      "file": "checkout-payment.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c5076ae25901195ee076-ac7b6e3f4ba015068457",
+          "file": "checkout-payment.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c5076ae25901195ee076-ffa2173ce6ac177579ae",
+          "file": "checkout-payment.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c5076ae25901195ee076-f26275734035563553c2",
+          "file": "checkout-payment.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c5076ae25901195ee076-627a46c7597a27983d88",
+          "file": "checkout-payment.spec.js",
+          "line": 11,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "order-history-tracking.spec.js",
+      "file": "order-history-tracking.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9fc71df1b10953ebc385-3cd41b2d463297d8a5de",
+          "file": "order-history-tracking.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9fc71df1b10953ebc385-585b7e9c4dc297431f5a",
+          "file": "order-history-tracking.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9fc71df1b10953ebc385-fa6f6cd4c26d4eaa2a5b",
+          "file": "order-history-tracking.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9fc71df1b10953ebc385-1288ade738c9725c41a6",
+          "file": "order-history-tracking.spec.js",
+          "line": 14,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "update-personal-info.spec.js",
+      "file": "update-personal-info.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "68658657871690603b72-d7b82675ad28b04a4454",
+          "file": "update-personal-info.spec.js",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "68658657871690603b72-a8c160c2e9b7b3392b92",
+          "file": "update-personal-info.spec.js",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "68658657871690603b72-df56a7f469fbfdc5f2f2",
+          "file": "update-personal-info.spec.js",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "Product search and add to cart",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "iPhone 16 Pro",
+              "projectName": "iPhone 16 Pro",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "68658657871690603b72-ae5ec55c564def081f9b",
+          "file": "update-personal-info.spec.js",
+          "line": 13,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-25T12:11:35.504Z",
+    "duration": 267.909,
+    "expected": 0,
+    "skipped": 120,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

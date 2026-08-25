@@ -1,0 +1,68 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: add-to-cart-json.spec.ts >> Product search and add to cart Accessories
+- Location: tests\add-to-cart-json.spec.ts:15:9
+
+# Error details
+
+```
+Error: expect(locator).toHaveText(expected) failed
+
+Locator:  locator('#cart-badge')
+Expected: "14"
+Received: "17"
+Timeout:  5000ms
+
+Call log:
+  - Expect "toHaveText" with timeout 5000ms
+  - waiting for locator('#cart-badge')
+    13 × locator resolved to <span id="cart-badge" class="store-snl-badge" data-testid="cart-badge">17</span>
+       - unexpected value "17"
+
+```
+
+```yaml
+- text: "17"
+```
+
+# Test source
+
+```ts
+  1  | import { expect, Locator, Page } from "@playwright/test";
+  2  | 
+  3  | class ProductDetailsPage {
+  4  |     page: Page;
+  5  |     addToCartButton: Locator;
+  6  |     pageCart: Locator;
+  7  | 
+  8  |     constructor(page: Page) {
+  9  |         this.page = page;
+  10 |         this.addToCartButton = page.locator("#detail-add-cart-btn");
+  11 |         this.pageCart = page.locator("#cart-badge");
+  12 | 
+  13 | 
+  14 |     }
+  15 | 
+  16 |     async addProductToCart(): Promise<void> {
+  17 |         await this.addToCartButton.click();
+  18 | 
+  19 |     }
+  20 | 
+  21 |     async checkIfProductAdded(number: number): Promise<void> {
+> 22 |         await expect(this.pageCart).toHaveText(String(number));
+     |                                     ^ Error: expect(locator).toHaveText(expected) failed
+  23 |     }
+  24 | 
+  25 | 
+  26 | }
+  27 | 
+  28 | export { ProductDetailsPage };
+  29 | 
+  30 | 
+```
